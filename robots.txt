@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bondexit.com/sitemap.xml
