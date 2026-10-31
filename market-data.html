@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bond exit pricing: yields and spreads that set what a sale brings — Market Data | bondexit.com</title>
+<meta name="description" content="Current Treasury yields, corporate bond yields, and credit spreads from ICE BofA indexes via FRED, plus long-run default rates.">
+<link rel="canonical" href="https://bondexit.com/market-data">
+<meta property="og:title" content="Bond exit pricing: yields and spreads that set what a sale brings — Market Data | bondexit.com">
+<meta property="og:description" content="Current Treasury yields, corporate bond yields, and credit spreads from ICE BofA indexes via FRED, plus long-run default rates.">
+<meta property="og:url" content="https://bondexit.com/market-data">
+<meta property="og:type" content="website">
+<style>
+body{font-family:system-ui,-apple-system,sans-serif;line-height:1.65;color:#1a1a1a;max-width:860px;margin:0 auto;padding:28px 20px 60px;overflow-wrap:break-word}
+nav{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;border-bottom:1px solid #ccc;padding-bottom:16px}
+nav a{font-weight:700}
+table{width:100%;border-collapse:collapse;margin:1em 0;font-size:15px;line-height:1.5}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #ccc;vertical-align:top}
+.trend-up{color:#1a7a3a;font-weight:700;white-space:nowrap}
+.trend-down{color:#a33;font-weight:700;white-space:nowrap}
+.trend-base{color:#666;font-weight:700;white-space:nowrap}
+.stamp{font-size:14px;opacity:.85}
+.buybox{border:1px solid #999;padding:18px;margin:2em 0}
+.note{font-size:14px;line-height:1.6}
+h1,h2{overflow-wrap:break-word;word-break:break-word}
+h2{margin-top:2.2em}
+@media(max-width:480px){table,tbody,tr,td{display:block;width:100%}thead{display:none}td{border-bottom:1px solid #ddd}td:before{content:attr(data-label)": ";font-weight:700}}
+
+/* Phase 1 assembly 2026-10-31 */
+@media (max-width:900px){h1{font-size:clamp(44px,11vw,72px)!important}}
+@media (max-width:900px){body{overflow-x:hidden}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Bond Exit Pricing: Treasury Yields, Corporate Yields, and Credit Spreads",
+  "description": "ICE BofA corporate bond index yields and option-adjusted spreads via FRED, Treasury yields, and long-run default rates.",
+  "temporalCoverage": "1981/2026",
+  "dateModified": "2026-10-31",
+  "creator": {"@type": "Organization", "name": "Prime Domain Capital"},
+  "sourceOrganization": [
+    "https://investmentgrade.com",
+    "https://fred.stlouisfed.org"
+  ],
+  "url": "https://bondexit.com/market-data",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+}
+</script>
+<style>
+/* Mobile rendering fix 2026-10-31: domain H1 lines, stacked nav, header clearance */
+@media (max-width:900px){
+main h1{overflow-wrap:normal!important;word-break:normal!important}
+nav:not(.toc){flex-direction:column!important;align-items:flex-start!important;gap:4px!important;padding-top:16px!important;padding-bottom:16px!important;padding-left:20px!important;padding-right:20px!important}
+.topbar{flex-direction:column!important;align-items:flex-start!important;gap:4px!important;padding-top:16px!important;padding-bottom:16px!important;padding-left:20px!important;padding-right:20px!important}
+main h1{font-size:clamp(30px,8.5vw,58px)!important;line-height:1.15!important}
+}
+</style>
+</head>
+<body>
+<nav><div><strong>Prime Domain Capital</strong></div><a href="https://www.afternic.com/domain/bondexit.com">Buy Now — $14,888</a></nav>
+<main>
+<p class="stamp">Last updated: October 31, 2026</p>
+<h1>Bond exit pricing: yields and spreads that set what a sale brings</h1>
+<p>Current Treasury yields, corporate bond yields, and credit spreads from ICE BofA indexes published via FRED, with long-run default rates for context.</p>
+<p>There is no single published "bond exit price." A bond holder who sells before maturity receives the market price on that day, and that price is set by two moving parts: the Treasury yield for the same maturity, and the credit spread — the extra yield buyers demand for holding that issuer's debt instead of Treasuries. When yields rise, prices fall, so a seller exits at a lower price; when spreads widen, lower-rated debt falls further than high-rated debt. This page tracks those two parts, by rating and by maturity, so a reader can see what an exit would be priced off, without pretending a single exit quote exists. One basis point equals 0.01 percentage points. Spreads below are option-adjusted spreads (OAS) over the Treasury curve.</p>
+<h2>The figures</h2>
+<table>
+<thead><tr><th>Figure</th><th>Value</th><th>Trend vs prior period</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td data-label="Figure">ICE BofA US Corporate Index effective yield, October 28, 2026</td><td data-label="Value"><strong>5.83%</strong></td><td data-label="Trend"><span class="trend-up">▲ Up</span><br><small>Prior: 4.67% one year earlier (+116 bps)</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED series BAMLC0A0CMEY</a></td></tr>
+<tr><td data-label="Figure">ICE BofA US Corporate Index option-adjusted spread, October 28, 2026</td><td data-label="Value"><strong>86 bps</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Range of 73–133 bps since October 30, 2023 — no single prior-period level stated on the cited page</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED series BAMLC0A0CM</a></td></tr>
+<tr><td data-label="Figure">ICE BofA US High Yield Index option-adjusted spread, October 28, 2026</td><td data-label="Value"><strong>314 bps — 228 bps wider than investment grade</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Single-date level — no prior-period level stated on the cited page</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED series BAMLH0A0HYM2</a></td></tr>
+<tr><td data-label="Figure">AAA corporate index, October 28, 2026</td><td data-label="Value"><strong>Effective yield 5.59%; option-adjusted spread 41 bps</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Spread range 27–59 bps since history start — no prior-period level stated</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED ICE BofA series</a></td></tr>
+<tr><td data-label="Figure">AA corporate index, October 28, 2026</td><td data-label="Value"><strong>Effective yield 5.64%; option-adjusted spread 62 bps</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Spread range 41–73 bps since history start — no prior-period level stated</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED ICE BofA series</a></td></tr>
+<tr><td data-label="Figure">A corporate index, October 28, 2026</td><td data-label="Value"><strong>Effective yield 5.66%; option-adjusted spread 72 bps</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Spread range 59–115 bps since history start — no prior-period level stated</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED ICE BofA series</a></td></tr>
+<tr><td data-label="Figure">BBB corporate index, October 28, 2026</td><td data-label="Value"><strong>Effective yield 6.04%; option-adjusted spread 107 bps</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Spread range 92–163 bps since history start — no prior-period level stated</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED ICE BofA series</a></td></tr>
+<tr><td data-label="Figure">BB high-yield index, October 28, 2026</td><td data-label="Value"><strong>Effective yield 6.66%; option-adjusted spread 184 bps</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Spread range 150–306 bps since history start — no prior-period level stated</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED ICE BofA series</a></td></tr>
+<tr><td data-label="Figure">Single-B high-yield index, October 28, 2026</td><td data-label="Value"><strong>Effective yield 7.99%; option-adjusted spread 318 bps</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Spread range 254–486 bps since history start — no prior-period level stated</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED ICE BofA series</a></td></tr>
+<tr><td data-label="Figure">CCC and lower high-yield index, October 28, 2026</td><td data-label="Value"><strong>Effective yield 17.73%; option-adjusted spread 1,307 bps</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Spread range 690–1,356 bps since history start — no prior-period level stated</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED ICE BofA series</a></td></tr>
+<tr><td data-label="Figure">Investment-grade corporate yield by maturity, October 28, 2026</td><td data-label="Value"><strong>1–3 years: 5.26% (57 bps); 3–5 years: 5.60% (76 bps); 5–7 years: 5.76% (89 bps); 7–10 years: 5.99% (105 bps); 10–15 years: 6.18% (106 bps); 15 years and longer: 6.41% (104 bps)</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Single-date maturity table — no prior-period maturity table stated</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED ICE BofA maturity sub-indexes</a></td></tr>
+<tr><td data-label="Figure">10-year Treasury yield, October 28, 2026</td><td data-label="Value"><strong>5.05%</strong></td><td data-label="Trend"><span class="trend-up">▲ Up</span><br><small>Prior: 3.99% one year earlier (+106 bps)</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED series DGS10</a></td></tr>
+<tr><td data-label="Figure">2-year Treasury yield, October 28, 2026</td><td data-label="Value"><strong>4.67%</strong></td><td data-label="Trend"><span class="trend-up">▲ Up</span><br><small>Prior: 4.67% one year earlier (+120 bps)</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED series DGS2</a></td></tr>
+<tr><td data-label="Figure">30-year Treasury yield, October 28, 2026</td><td data-label="Value"><strong>5.37%</strong></td><td data-label="Trend"><span class="trend-up">▲ Up</span><br><small>Prior: 4.55% one year earlier (+82 bps)</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED series DGS30</a></td></tr>
+<tr><td data-label="Figure">Effective federal funds rate, October 28, 2026</td><td data-label="Value"><strong>3.88%</strong></td><td data-label="Trend"><span class="trend-down">▼ Down</span><br><small>Prior: 4.12% one year earlier (−24 bps)</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED series DFF</a></td></tr>
+<tr><td data-label="Figure">10-year breakeven inflation rate, October 28, 2026</td><td data-label="Value"><strong>2.35%</strong></td><td data-label="Trend"><span class="trend-up">▲ Up</span><br><small>Prior: 2.30% one year earlier (+5 bps)</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">InvestmentGrade.com, compiling FRED series T10YIE</a></td></tr>
+<tr><td data-label="Figure">Average one-year default rate, S&amp;P Global Ratings study 1981–2024</td><td data-label="Value"><strong>Investment grade issuers: 0.08%; speculative grade issuers: 3.54%</strong></td><td data-label="Trend"><span class="trend-base">● Baseline</span><br><small>Prior: Long-run average — not a year-over-year figure</small></td><td data-label="Source"><a href="https://investmentgrade.com/investment-grade-bond-statistics-2026/">S&amp;P Global Ratings, 2024 Annual Global Corporate Default and Rating Transition Study, via InvestmentGrade.com</a></td></tr>
+</tbody>
+</table>
+<h2>How to read these numbers</h2>
+<p>Included: ICE BofA index effective yields and option-adjusted spreads by rating and by maturity, Treasury constant-maturity yields, the effective federal funds rate, and the 10-year breakeven inflation rate, all as compiled from FRED on October 28, 2026, plus S&amp;P long-run default averages. Excluded: individual bond quotes, dealer bid-ask spreads, and any single-bond exit price — none is published as a market-wide figure, and an index average is not a quote on any one bond. Index yields are averages across many issuers; a holder selling one bond will face that bond's own maturity, coupon, rating, and liquidity. Spreads are shown over the Treasury curve, so a widening spread means buyers demand more extra yield, which pushes the sale price down even if Treasury yields stand still.</p>
+<p class="note">Disclaimer: Yield and spread levels move every business day, and past yields do not predict future prices. Figures on this page are aggregated public estimates assembled for information only. They are not investment advice, legal advice, or a professional opinion on any specific bond, issuer, or sale. Original reporting and the underlying indexes remain the work of the sources linked above; this page summarizes their published figures with attribution and adds no proprietary dataset.</p>
+<div class="buybox">
+<p><strong>bondexit.com is offered for sale at $14,888.</strong></p>
+<p><a href="https://www.afternic.com/domain/bondexit.com">Buy Now — $14,888 via Afternic</a></p>
+<p>Questions about this domain: <a href="mailto:info@primedomaincapital.com">info@primedomaincapital.com</a></p>
+</div>
+<h2>Changelog</h2>
+<ul><li>October 2026: Initial edition — ICE BofA yields and spreads by rating and maturity, Treasury yields, policy rate, breakeven inflation, and long-run default rates as of October 28, 2026 established.</li></ul>
+<p><a href="https://bondexit.com/">Back to homepage</a></p>
+</main>
+<footer><p>Offered by <strong>Prime Domain Capital</strong> · Private holder selling its own domain assets</p><p><a href="mailto:info@primedomaincapital.com">info@primedomaincapital.com</a></p></footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "1407571ec8bc45c3a082c91096558135"}'></script>
+</body>
+</html>
